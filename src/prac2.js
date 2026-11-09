@@ -1,0 +1,46 @@
+/* ---------- Units 3 & 4: “Your turn” questions and answers from the guide (pp. 22–25) ---------- */
+const PRAC2=[
+ {id:'u3q1',sub:'3.1',qt:'A4',q:'For 2, 3, 3, 4, 8, find the mode, median, mean and range.',a:'Mode 3; median 3; mean 4; range 6. Total = 20; count = 5.'},
+ {id:'u3q2',sub:'3.1',qt:'A2',q:'Find the mode or modes of 6, 6, 7, 7, 9.',a:'6 and 7. Each occurs twice, so the data are bimodal.'},
+ {id:'u3q3',sub:'3.1',qt:'A3',q:'Find the median of 1, 4, 6, 9.',a:'5. The middle pair is 4 and 6; halfway between them is 5.'},
+ {id:'u3q4',sub:'3.1',qt:'A4',q:'Find the mean of 4, 7, 10.',a:'7. Total 21 shared among 3 values gives 7 each.'},
+ {id:'u3q5',sub:'3.1',qt:'A5',q:'Find the range of 13, 18, 9, 20.',a:'11. Largest 20 minus smallest 9.'},
+ {id:'u3q6',sub:'3.1',qt:'A7',q:'The mean of 5, 9, 6 and one missing number is 8. Find the missing number.',a:'12. Needed total = 8 × 4 = 32. Known total = 20.'},
+ {id:'u3q7',sub:'3.1',qt:'A6',q:'A: 4, 4, 4, 4. B: 1, 3, 5, 7. Find both means and ranges. Which set is more consistent?',a:'Both means are 4. A has range 0; B has range 6. A is more consistent.'},
+ {id:'u3q8',sub:'3.1',qt:'A8',q:'Make five heights with median 12 cm, mode 14 cm and range 6 cm.',a:'One solution: 8, 10, 12, 14, 14. Check every condition.'},
+ {id:'u3q9',sub:'3.1',qt:'A9',q:'For 1, 1, 2, 2, 14, find the mean and median. Which is more affected by 14?',a:'Mean 4; median 2. The large value 14 pulls the mean upwards.'},
+ {id:'u3q10',sub:'3.1',qt:'A7',q:'Six values have a mean of 7. What is their total?',a:'42. Total = mean × count = 7 × 6.'},
+ {id:'u4q1',sub:'4.1',qt:'A11',q:'Calculate −6 + 9.',a:'3. Start at −6; move 9 places right.'},
+ {id:'u4q2',sub:'4.1',qt:'A11',q:'The temperature is −4°C and falls by 7°C. Find the new temperature.',a:'−11°C. A fall of 7 moves 7 places left from −4.'},
+ {id:'u4q3',sub:'4.1',qt:'A12',q:'Find the difference between −8 and 5.',a:'13. The distance is 8 to reach zero, then 5 more.'},
+ {id:'u4q4',sub:'4.1',qt:'A12',q:'Two numbers differ by 3. One is −2. Find both possible other numbers.',a:'−5 or 1. Move 3 places left or right from −2.'},
+ {id:'u4q5',sub:'4.1',qt:'A13',q:'Calculate 34 875 + 16 248.',a:'51 123. Align place-value columns and regroup.'},
+ {id:'u4q6',sub:'4.1',qt:'A13',q:'Calculate 40 203 − 7856.',a:'32 347. Check: 32 347 + 7856 = 40 203.'},
+ {id:'u4q7',sub:'4.1',qt:'A14',q:'Use compensation to calculate 1998 + 2547.',a:'4545. 1998 + 2547 = 2000 + 2545.'},
+ {id:'u4q8',sub:'4.2',qt:'A16',q:'When d = 6, find (a) d + 4 and (b) 4 − d.',a:'(a) 10. (b) −2. Substitute 6 for d in each expression.'},
+ {id:'u4q9',sub:'4.2',qt:'A17',q:'Two strips total 19 cm. The longer is 5 cm longer than the shorter. Find both lengths.',a:'7 cm and 12 cm. Remove the extra 5: 19 − 5 = 14. Split equally: 14 ÷ 2 = 7.'},
+ {id:'u4q10',sub:'4.2',qt:'A19',q:'A square has perimeter 28 cm. A regular pentagon has perimeter 35 cm. Find each side length.',a:'Square: 7 cm. Pentagon: 7 cm. Divide each perimeter by its number of equal sides.'}
+].map(x=>({...x,self:true,src:'Guide p. '+(x.id.startsWith('u3')?22:23)+' Q'+x.id.split('q')[1],parts:[],expl:x.a}));
+Object.assign(SOL,{
+ 'u3q1':{d:[['grid',{head:['Mode','Median','Mean','Range'],rows:[['3 (twice)','3 (middle)','20 ÷ 5 = 4','8 − 2 = 6']]}]]},
+ 'u3q2':{d:[['grid',{head:['Value','6','7','9'],rows:[['How many','2','2','1']]}]],s:['6 and 7 both appear most often (twice) → two modes.']},
+ 'u3q3':{d:[['flow',{steps:['In order: 1, 4, 6, 9 (an even number of values)','Middle pair: 4 and 6','Halfway: (4 + 6) ÷ 2 = 5']}]]},
+ 'u3q4':{d:[['flow',{steps:['Gather: 4 + 7 + 10 = 21','Share equally among 3: 21 ÷ 3 = 7']}]]},
+ 'u3q5':{d:[['order',{vals:['13','18','9','20'],min:'8',max:'21',hl:['9','20']}]],s:['Range = largest − smallest = 20 − 9 = 11.']},
+ 'u3q6':{d:[['flow',{steps:['Needed total = mean × count = 8 × 4 = 32','Known total = 5 + 9 + 6 = 20','Missing number = 32 − 20 = 12']}]]},
+ 'u3q7':{d:[['grid',{head:['Set','Total ÷ count = mean','Range'],rows:[['A: 4, 4, 4, 4','16 ÷ 4 = 4','4 − 4 = 0 ✓ more consistent'],['B: 1, 3, 5, 7','16 ÷ 4 = 4','7 − 1 = 6']]}]]},
+ 'u3q8':{d:[['grid',{head:['8, 10, 12, 14, 14','Check'],rows:[['Median (middle value)','12 ✓'],['Mode (most often)','14 ✓'],['Range','14 − 8 = 6 ✓']]}]]},
+ 'u3q9':{d:[['grid',{head:['Average','Working','Answer'],rows:[['Mean','(1+1+2+2+14) ÷ 5 = 20 ÷ 5','4'],['Median','1, 1, 2, 2, 14 → middle','2']],hlr:[0]}]],s:['The large value 14 pulls the mean up; the median stays 2.']},
+ 'u3q10':{d:[['flow',{steps:['Total = mean × number of values','7 × 6 = 42']}]]},
+ 'u4q1':{d:[['jumps',{terms:['−6','3'],step:'+9 (right)',hl:[1]}]]},
+ 'u4q2':{d:[['jumps',{terms:['−4°C','−11°C'],step:'fall 7 (left)',hl:[1]}]]},
+ 'u4q3':{d:[['jumps',{terms:['−8','0','5'],steps:['+8','+5'],hl:[2]}]],s:['8 to reach zero, then 5 more: 8 + 5 = 13.']},
+ 'u4q4':{d:[['jumps',{rows:[{label:'3 to the left',terms:['−2','−5'],step:'−3',hl:[1]},{label:'3 to the right',terms:['−2','1'],step:'+3',hl:[1]}]}]]},
+ 'u4q5':{d:[['grid',{head:['','TTh','Th','H','T','O'],rows:[['','3','4','8','7','5'],['+','1','6','2','4','8'],['=','5','1','1','2','3']],hlr:[2]}]],s:['Estimate: 35 000 + 16 000 = 51 000. Exact: 51 123.']},
+ 'u4q6':{d:[['grid',{head:['','TTh','Th','H','T','O'],rows:[['','4','0','2','0','3'],['−','','7','8','5','6'],['=','3','2','3','4','7']],hlr:[2]}]],s:['Check by adding: 32 347 + 7856 = 40 203.']},
+ 'u4q7':{d:[['flow',{steps:['1998 is 2 less than 2000','Move 2 across: 1998 + 2547 = 2000 + 2545','= 4545']}]]},
+ 'u4q8':{d:[['flow',{steps:['Replace d with 6','(a) 6 + 4 = 10','(b) 4 − 6 = −2']}]]},
+ 'u4q9':{d:[['flow',{steps:['Remove the extra 5 cm: 19 − 5 = 14','Split equally: 14 ÷ 2 = 7','Shorter 7 cm · longer 7 + 5 = 12 cm']}]]},
+ 'u4q10':{d:[['grid',{head:['Shape','Perimeter','Equal sides','Each side'],rows:[['Square','28 cm','4','28 ÷ 4 = 7 cm'],['Regular pentagon','35 cm','5','35 ÷ 5 = 7 cm']]}]]}
+});
+PRACTICE.push(...PRAC2);PRAC2.forEach(p=>PR[p.id]=p);

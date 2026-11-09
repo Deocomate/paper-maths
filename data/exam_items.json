@@ -1,0 +1,1938 @@
+[
+ {
+  "id": "P01-Q04",
+  "unit": 1,
+  "kind": "P",
+  "year": "2022",
+  "paper": "1",
+  "oq": "4",
+  "srcpage": "3",
+  "related": "",
+  "page": 5,
+  "crops": [
+   "P01-Q04_0.png"
+  ],
+  "answer": "17.4.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "P02-Q12",
+  "unit": 1,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "12",
+  "srcpage": "23",
+  "related": "",
+  "page": 5,
+  "crops": [
+   "P02-Q12_0.png"
+  ],
+  "answer": "(a) 2 units, 0 tenths, 4 hundredths, 7 thousandths. (b) 367 hundredths.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "P03-Q01",
+  "unit": 1,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "1",
+  "srcpage": "34",
+  "related": "",
+  "page": 5,
+  "crops": [
+   "P03-Q01_0.png"
+  ],
+  "answer": "Join to \u201c105 tenths and 6 hundredths\u201d and \u201c1 ten and 56 hundredths\u201d.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "P03-Q04",
+  "unit": 1,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "4",
+  "srcpage": "35",
+  "related": "",
+  "page": 6,
+  "crops": [
+   "P03-Q04_0.png"
+  ],
+  "answer": "2.98, 3.04, 3.15, 3.31.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "P03-Q06",
+  "unit": 1,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "6",
+  "srcpage": "35",
+  "related": "",
+  "page": 6,
+  "crops": [
+   "P03-Q06_0.png"
+  ],
+  "answer": "For example 7.02; any hundredth from 6.95 to 7.04 inclusive is valid.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "P04-Q07",
+  "unit": 1,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "7",
+  "srcpage": "52",
+  "related": "",
+  "page": 6,
+  "crops": [
+   "P04-Q07_0.png"
+  ],
+  "answer": "Thousandths.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "P04-Q16",
+  "unit": 1,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "16",
+  "srcpage": "56",
+  "related": "",
+  "page": 7,
+  "crops": [
+   "P04-Q16_0.png"
+  ],
+  "answer": "In row order: 8.43; 8.403; 8.043; 8.43.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "P05-Q02",
+  "unit": 1,
+  "kind": "P",
+  "year": "2024",
+  "paper": "1",
+  "oq": "2",
+  "srcpage": "68",
+  "related": "10",
+  "page": 7,
+  "crops": [
+   "P05-Q02_0.png"
+  ],
+  "answer": "10420.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "P05-Q05",
+  "unit": 1,
+  "kind": "P",
+  "year": "2024",
+  "paper": "1",
+  "oq": "5",
+  "srcpage": "69",
+  "related": "7",
+  "page": 8,
+  "crops": [
+   "P05-Q05_0.png"
+  ],
+  "answer": "For example 1.9 seconds; any time strictly between 1.7 and 2.1 seconds is valid.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "P05-Q22",
+  "unit": 1,
+  "kind": "P",
+  "year": "2024",
+  "paper": "1",
+  "oq": "22",
+  "srcpage": "79",
+  "related": "",
+  "page": 9,
+  "crops": [
+   "P05-Q22_0.png"
+  ],
+  "answer": "Complete as 35.49, 35.08 and 34.53; the digits are 5, 5 and 4.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "P06-Q10",
+  "unit": 1,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "10",
+  "srcpage": "93",
+  "related": "",
+  "page": 9,
+  "crops": [
+   "P06-Q10_0.png"
+  ],
+  "answer": "71.153 \u2192 3 thousandths; 322.784 \u2192 3 hundreds; 1352.4 \u2192 3 hundreds; 41.031 \u2192 3 hundredths. The \u201c3 thousands\u201d statement is unused.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "P07-Q06",
+  "unit": 1,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "6",
+  "srcpage": "111",
+  "related": "",
+  "page": 9,
+  "crops": [
+   "P07-Q06_0.png"
+  ],
+  "answer": "5.19.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "P07-Q27",
+  "unit": 1,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "27",
+  "srcpage": "122",
+  "related": "",
+  "page": 10,
+  "crops": [
+   "P07-Q27_0.png"
+  ],
+  "answer": "For example 2.15 rounds down to 2; its last decimal digit is still 5.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "P08-Q12",
+  "unit": 1,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "12",
+  "srcpage": "132",
+  "related": "",
+  "page": 10,
+  "crops": [
+   "P08-Q12_0.png"
+  ],
+  "answer": "(a) Hundredths. (b) 20.027.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "P08-Q18",
+  "unit": 1,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "18",
+  "srcpage": "137",
+  "related": "",
+  "page": 11,
+  "crops": [
+   "P08-Q18_0.png"
+  ],
+  "answer": "10.5 \u2192 rounds up; 8.2 \u2192 rounds down; 8.9 \u2192 rounds up.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "P09-Q06",
+  "unit": 1,
+  "kind": "P",
+  "year": "2026",
+  "paper": "1",
+  "oq": "6",
+  "srcpage": "147",
+  "related": "14",
+  "page": 11,
+  "crops": [
+   "P09-Q06_0.png"
+  ],
+  "answer": "0.907.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "P10-Q01",
+  "unit": 1,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "166",
+  "related": "",
+  "page": 11,
+  "crops": [
+   "P10-Q01_0.png"
+  ],
+  "answer": "6.56.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "P10-Q05",
+  "unit": 1,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "5",
+  "srcpage": "167",
+  "related": "",
+  "page": 12,
+  "crops": [
+   "P10-Q05_0.png"
+  ],
+  "answer": "Thousandths.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C01-Q11",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "11",
+  "srcpage": "7",
+  "related": "14",
+  "page": 13,
+  "crops": [
+   "C01-Q11_0.png"
+  ],
+  "answer": "Use 10, 10 and 1000 in box order: 6.2 \u00f7 10 \u00f7 10 = 6.2 \u00d7 10 \u00f7 1000.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C01-Q22",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "22",
+  "srcpage": "11",
+  "related": "",
+  "page": 13,
+  "crops": [
+   "C01-Q22_0.png"
+  ],
+  "answer": "For example 3.16: it rounds up to 3.2 at one decimal place and down to 3 at the nearest whole number.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "C02-Q01",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "18",
+  "related": "",
+  "page": 13,
+  "crops": [
+   "C02-Q01_0.png"
+  ],
+  "answer": "4.03, 4.07, 4.36, 4.63, 4.70.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "C03-Q01",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "1",
+  "oq": "1",
+  "srcpage": "34",
+  "related": "",
+  "page": 14,
+  "crops": [
+   "C03-Q01_0.png"
+  ],
+  "answer": "3.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "C03-Q28",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "1",
+  "oq": "28",
+  "srcpage": "47",
+  "related": "8",
+  "page": 14,
+  "crops": [
+   "C03-Q28_0.png"
+  ],
+  "answer": "63.127.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "C03-Q31",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "1",
+  "oq": "31",
+  "srcpage": "48",
+  "related": "",
+  "page": 14,
+  "crops": [
+   "C03-Q31_0.png"
+  ],
+  "answer": "For example 1.23; 1.23 \u00d7 100 = 123, and each number uses three digits.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C04-Q12",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "12",
+  "srcpage": "54",
+  "related": "",
+  "page": 15,
+  "crops": [
+   "C04-Q12_0.png"
+  ],
+  "answer": "Thousandths.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C04-Q14",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "14",
+  "srcpage": "54",
+  "related": "",
+  "page": 15,
+  "crops": [
+   "C04-Q14_0.png"
+  ],
+  "answer": "Greater than 13.56: 136 tenths; 1 ten and 75 tenths; 1 ten, 40 tenths and 36 hundredths. Less than 13.56: 1064 hundredths; 125 tenths and 42 hundredths.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "C04-Q21",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "21",
+  "srcpage": "58",
+  "related": "",
+  "page": 15,
+  "crops": [
+   "C04-Q21_0.png"
+  ],
+  "answer": "4.4.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "C04-Q27",
+  "unit": 1,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "27",
+  "srcpage": "62",
+  "related": "",
+  "page": 16,
+  "crops": [
+   "C04-Q27_0.png"
+  ],
+  "answer": "0.9. For example 3.5 and 4.4 both round to 4.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "C05-Q04",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "1",
+  "oq": "4",
+  "srcpage": "68",
+  "related": "",
+  "page": 16,
+  "crops": [
+   "C05-Q04_0.png"
+  ],
+  "answer": "38040.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C06-Q13",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "13",
+  "srcpage": "91",
+  "related": "",
+  "page": 17,
+  "crops": [
+   "C06-Q13_0.png"
+  ],
+  "answer": "Tick statements 1, 3 and 5.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "C06-Q19",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "19",
+  "srcpage": "94",
+  "related": "",
+  "page": 17,
+  "crops": [
+   "C06-Q19_0.png"
+  ],
+  "answer": "20.47 kg and 19.74 kg.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "C07-Q03",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "1",
+  "oq": "3",
+  "srcpage": "106",
+  "related": "",
+  "page": 18,
+  "crops": [
+   "C07-Q03_0.png"
+  ],
+  "answer": "70; 2.163.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C07-Q26",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "1",
+  "oq": "26",
+  "srcpage": "118",
+  "related": "16",
+  "page": 18,
+  "crops": [
+   "C07-Q26_0.png"
+  ],
+  "answer": "8.7; the overall multiplier is 100.",
+  "skill": "pv-reverse"
+ },
+ {
+  "id": "C08-Q01",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "126",
+  "related": "",
+  "page": 18,
+  "crops": [
+   "C08-Q01_0.png"
+  ],
+  "answer": "15.2.",
+  "skill": "rd-line"
+ },
+ {
+  "id": "C08-Q06",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "6",
+  "srcpage": "128",
+  "related": "",
+  "page": 18,
+  "crops": [
+   "C08-Q06_0.png"
+  ],
+  "answer": "32.051.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C08-Q20",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "20",
+  "srcpage": "137",
+  "related": "",
+  "page": 19,
+  "crops": [
+   "C08-Q20_0.png"
+  ],
+  "answer": "Tick the first and third expressions.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "C08-Q26",
+  "unit": 1,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "26",
+  "srcpage": "142",
+  "related": "8",
+  "page": 19,
+  "crops": [
+   "C08-Q26_0.png"
+  ],
+  "answer": "For example 4.2 and 4.3. Each rounds to 4; their sum 8.5 rounds to 9.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "C09-Q01",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "1",
+  "oq": "1",
+  "srcpage": "150",
+  "related": "8",
+  "page": 19,
+  "crops": [
+   "C09-Q01_0.png"
+  ],
+  "answer": "1.023.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C09-Q11",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "1",
+  "oq": "11",
+  "srcpage": "153",
+  "related": "",
+  "page": 20,
+  "crops": [
+   "C09-Q11_0.png"
+  ],
+  "answer": "7800; 780; 0.078; 0.78.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C10-Q05",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "5",
+  "srcpage": "168",
+  "related": "",
+  "page": 20,
+  "crops": [
+   "C10-Q05_0.png"
+  ],
+  "answer": "10.05, 10.95, 11.05, 11.50, 11.55.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "C10-Q18",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "18",
+  "srcpage": "174",
+  "related": "",
+  "page": 20,
+  "crops": [
+   "C10-Q18_0.png"
+  ],
+  "answer": "5.01 and 4.95.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "C10-Q21",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "21",
+  "srcpage": "176",
+  "related": "",
+  "page": 21,
+  "crops": [
+   "C10-Q21_0.png"
+  ],
+  "answer": "In 5555.555: tens = third digit from the left; ones = fourth digit; hundredths = second digit after the decimal point; thousandths = third digit after it.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C11-Q13",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "1",
+  "oq": "13",
+  "srcpage": "192",
+  "related": "",
+  "page": 21,
+  "crops": [
+   "C11-Q13_0.png"
+  ],
+  "answer": "45.6; 6510.",
+  "skill": "pv-scale"
+ },
+ {
+  "id": "C12-Q01",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "206",
+  "related": "",
+  "page": 21,
+  "crops": [
+   "C12-Q01_0.png"
+  ],
+  "answer": "2 tenths.",
+  "skill": "pv-value"
+ },
+ {
+  "id": "C12-Q07",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "7",
+  "srcpage": "208",
+  "related": "",
+  "page": 22,
+  "crops": [
+   "C12-Q07_0.png"
+  ],
+  "answer": "51.",
+  "skill": "pv-regroup"
+ },
+ {
+  "id": "C12-Q22",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "22",
+  "srcpage": "216",
+  "related": "",
+  "page": 22,
+  "crops": [
+   "C12-Q22_0.png"
+  ],
+  "answer": "0.08, 0.78, 0.8, 0.87, 1.8.",
+  "skill": "pv-order"
+ },
+ {
+  "id": "C12-Q25",
+  "unit": 1,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "25",
+  "srcpage": "218",
+  "related": "",
+  "page": 22,
+  "crops": [
+   "C12-Q25_0.png"
+  ],
+  "answer": "7.4.",
+  "skill": "rd-range"
+ },
+ {
+  "id": "P01-Q01",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "1",
+  "oq": "1",
+  "srcpage": "2",
+  "related": "",
+  "page": 29,
+  "crops": [
+   "P01-Q01_0.png"
+  ],
+  "answer": "1.1; add 0.2 each time.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P01-Q06",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "1",
+  "oq": "6",
+  "srcpage": "3",
+  "related": "10",
+  "page": 29,
+  "crops": [
+   "P01-Q06_0.png"
+  ],
+  "answer": "3004, 2424 and 2332.",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "P01-Q14",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "1",
+  "oq": "14",
+  "srcpage": "8",
+  "related": "",
+  "page": 29,
+  "crops": [
+   "P01-Q14_0.png"
+  ],
+  "answer": "64 = 8 \u00d7 8 = 8\u00b2.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P02-Q01",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "18",
+  "related": "",
+  "page": 30,
+  "crops": [
+   "P02-Q01_0.png"
+  ],
+  "answer": "64.",
+  "skill": "sc-cube"
+ },
+ {
+  "id": "P02-Q04",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "4",
+  "srcpage": "19",
+  "related": "",
+  "page": 30,
+  "crops": [
+   "P02-Q04_0.png"
+  ],
+  "answer": "23, 31, 41 and 43.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "P02-Q07",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "7",
+  "srcpage": "20",
+  "related": "15",
+  "page": 30,
+  "crops": [
+   "P02-Q07_0.png"
+  ],
+  "answer": "(a) B. (b) A. Every multiple of 6 is an even multiple of 3.",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "P02-Q09",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "9",
+  "srcpage": "21",
+  "related": "",
+  "page": 31,
+  "crops": [
+   "P02-Q09_0.png"
+  ],
+  "answer": "Tick statements 2 and 3 only: the sixth triangular number is 21; 1 + 3 + 6 + 10 = 20.",
+  "skill": "sq-picture"
+ },
+ {
+  "id": "P02-Q11",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "11",
+  "srcpage": "23",
+  "related": "",
+  "page": 31,
+  "crops": [
+   "P02-Q11_0.png"
+  ],
+  "answer": "(a) 32. (b) 128; term n is 2n\u00b2.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P02-Q22",
+  "unit": 2,
+  "kind": "P",
+  "year": "2022",
+  "paper": "2",
+  "oq": "22",
+  "srcpage": "31",
+  "related": "",
+  "page": 32,
+  "crops": [
+   "P02-Q22_0.png"
+  ],
+  "answer": "6 seconds; 10 seconds; 30 seconds. Use pairwise common multiples and lcm(2,3,5).",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "P03-Q05",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "5",
+  "srcpage": "35",
+  "related": "8",
+  "page": 33,
+  "crops": [
+   "P03-Q05_0.png"
+  ],
+  "answer": "The full sequence is 0.87, 1.12, 1.37, 1.62; the missing values are 0.87 and 1.62.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P03-Q07",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "7",
+  "srcpage": "36",
+  "related": "",
+  "page": 33,
+  "crops": [
+   "P03-Q07_0.png"
+  ],
+  "answer": "Term at position 9: 54. Position of term 720: 120.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "P03-Q22",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "22",
+  "srcpage": "43",
+  "related": "",
+  "page": 33,
+  "crops": [
+   "P03-Q22_0.png"
+  ],
+  "answer": "41 = 6\u00b2 + 5.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P03-Q30",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "1",
+  "oq": "30",
+  "srcpage": "47",
+  "related": "",
+  "page": 34,
+  "crops": [
+   "P03-Q30_0.png"
+  ],
+  "answer": "Tick \u201c30 could be the 5th term\u201d and \u201c30 could be the 6th term\u201d; the increments are 5 and 4.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "P04-Q03",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "3",
+  "srcpage": "50",
+  "related": "",
+  "page": 34,
+  "crops": [
+   "P04-Q03_0.png"
+  ],
+  "answer": "12 and 24.",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "P04-Q06",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "6",
+  "srcpage": "52",
+  "related": "4",
+  "page": 34,
+  "crops": [
+   "P04-Q06_0.png"
+  ],
+  "answer": "-17; nearby terms are -10, -17 and -24.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P04-Q12",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "12",
+  "srcpage": "54",
+  "related": "",
+  "page": 35,
+  "crops": [
+   "P04-Q12_0.png"
+  ],
+  "answer": "100 = 125 - 25.",
+  "skill": "sc-cube"
+ },
+ {
+  "id": "P04-Q14",
+  "unit": 2,
+  "kind": "P",
+  "year": "2023",
+  "paper": "2",
+  "oq": "14",
+  "srcpage": "55",
+  "related": "",
+  "page": 35,
+  "crops": [
+   "P04-Q14_0.png"
+  ],
+  "answer": "For example 2 and 11; their sum is the prime 13. Also valid: 2 and 17.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "P05-Q21",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "1",
+  "oq": "21",
+  "srcpage": "78",
+  "related": "",
+  "page": 35,
+  "crops": [
+   "P05-Q21_0.png"
+  ],
+  "answer": "Prime numbers.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "P06-Q01",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "90",
+  "related": "",
+  "page": 36,
+  "crops": [
+   "P06-Q01_0.png"
+  ],
+  "answer": "16.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "P06-Q06",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "6",
+  "srcpage": "91",
+  "related": "8",
+  "page": 36,
+  "crops": [
+   "P06-Q06_0.png"
+  ],
+  "answer": "3/10; subtract 2/10 each time.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P06-Q15",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "15",
+  "srcpage": "97",
+  "related": "",
+  "page": 37,
+  "crops": [
+   "P06-Q15_0.png"
+  ],
+  "answer": "(a) A 4 \u00d7 4 array of 16 dots; expression 4\u00b2; calculation 4 \u00d7 4; square number 16. (b) 9th term.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P06-Q25",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "25",
+  "srcpage": "102",
+  "related": "",
+  "page": 38,
+  "crops": [
+   "P06-Q25_0.png"
+  ],
+  "answer": "4 + 9 \u00d7 3 = 31, or 3 \u00d7 10 + 1 = 31.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "P06-Q27",
+  "unit": 2,
+  "kind": "P",
+  "year": "2024",
+  "paper": "2",
+  "oq": "27",
+  "srcpage": "103",
+  "related": "",
+  "page": 38,
+  "crops": [
+   "P06-Q27_0.png"
+  ],
+  "answer": "For example 18 and 27. Both are multiples of 9 and factors of 1458.",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "P07-Q10",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "10",
+  "srcpage": "113",
+  "related": "8",
+  "page": 39,
+  "crops": [
+   "P07-Q10_0.png"
+  ],
+  "answer": "0.5 and 0.1.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P07-Q11",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "11",
+  "srcpage": "113",
+  "related": "",
+  "page": 39,
+  "crops": [
+   "P07-Q11_0.png"
+  ],
+  "answer": "10 \u00d7 10 and 3 \u00d7 3.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P07-Q13",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "13",
+  "srcpage": "113",
+  "related": "",
+  "page": 39,
+  "crops": [
+   "P07-Q13_0.png"
+  ],
+  "answer": "23, 29 and 31.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "P07-Q22",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "1",
+  "oq": "22",
+  "srcpage": "118",
+  "related": "",
+  "page": 40,
+  "crops": [
+   "P07-Q22_0.png"
+  ],
+  "answer": "8.",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "P08-Q01",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "1",
+  "srcpage": "126",
+  "related": "",
+  "page": 40,
+  "crops": [
+   "P08-Q01_0.png"
+  ],
+  "answer": "(a) 24. (b) 44.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "P08-Q05",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "5",
+  "srcpage": "128",
+  "related": "",
+  "page": 41,
+  "crops": [
+   "P08-Q05_0.png"
+  ],
+  "answer": "81 circles.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "P08-Q06",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "6",
+  "srcpage": "128",
+  "related": "",
+  "page": 41,
+  "crops": [
+   "P08-Q06_0.png"
+  ],
+  "answer": "3 in every box.",
+  "skill": "sc-cube"
+ },
+ {
+  "id": "P08-Q20",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "20",
+  "srcpage": "138",
+  "related": "",
+  "page": 41,
+  "crops": [
+   "P08-Q20_0.png"
+  ],
+  "answer": "No. Every term is 1 more than a multiple of 7; 350 is divisible by 7. Equivalently (350 - 8) \u00f7 7 is not a whole number.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "P08-Q21",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "21",
+  "srcpage": "138",
+  "related": "15",
+  "page": 42,
+  "crops": [
+   "P08-Q21_0.png"
+  ],
+  "answer": "Left heading: multiples of 3. Right heading: factors of 60. For the blank intersection entry, for example 6 (also 12 or 15).",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "P08-Q25",
+  "unit": 2,
+  "kind": "P",
+  "year": "2025",
+  "paper": "2",
+  "oq": "25",
+  "srcpage": "141",
+  "related": "12",
+  "page": 43,
+  "crops": [
+   "P08-Q25_0.png"
+  ],
+  "answer": "(a) 30 cookies each. (b) 112 eggs: each makes 240 cookies, using 48 + 24 + 40 eggs.",
+  "skill": "mf-packs"
+ },
+ {
+  "id": "P09-Q01",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "1",
+  "oq": "1",
+  "srcpage": "146",
+  "related": "8",
+  "page": 43,
+  "crops": [
+   "P09-Q01_0.png"
+  ],
+  "answer": "0.4; subtract 0.7 at each step.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "P09-Q05",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "1",
+  "oq": "5",
+  "srcpage": "147",
+  "related": "",
+  "page": 44,
+  "crops": [
+   "P09-Q05_0.png"
+  ],
+  "answer": "88.",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "P09-Q19",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "1",
+  "oq": "19",
+  "srcpage": "155",
+  "related": "",
+  "page": 44,
+  "crops": [
+   "P09-Q19_0.png"
+  ],
+  "answer": "Yes. 945 is a multiple of 7 greater than 35; 35 + 130 \u00d7 7 = 945.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "P10-Q07",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "7",
+  "srcpage": "168",
+  "related": "",
+  "page": 45,
+  "crops": [
+   "P10-Q07_0.png"
+  ],
+  "answer": "33.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "P10-Q12",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "12",
+  "srcpage": "170",
+  "related": "",
+  "page": 45,
+  "crops": [
+   "P10-Q12_0.png"
+  ],
+  "answer": "For 1: square 1, cube 1. For 2: square 4, cube 8. For 3: square 9, cube 27.",
+  "skill": "sc-cube"
+ },
+ {
+  "id": "P10-Q15",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "15",
+  "srcpage": "172",
+  "related": "15",
+  "page": 46,
+  "crops": [
+   "P10-Q15_0.png"
+  ],
+  "answer": "Multiples of 3; factors of 60. More generally a right-hand label can be a common multiple of 12 and 5 which is not divisible by 9 or 11; 60 is the simplest choice.",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "P10-Q24",
+  "unit": 2,
+  "kind": "P",
+  "year": "2026",
+  "paper": "2",
+  "oq": "24",
+  "srcpage": "178",
+  "related": "",
+  "page": 46,
+  "crops": [
+   "P10-Q24_0.png"
+  ],
+  "answer": "784 = 28\u00b2.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "C01-Q06",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "6",
+  "srcpage": "3",
+  "related": "",
+  "page": 47,
+  "crops": [
+   "C01-Q06_0.png"
+  ],
+  "answer": "(a) 21. (b) 2.",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "C01-Q17",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "17",
+  "srcpage": "9",
+  "related": "4",
+  "page": 47,
+  "crops": [
+   "C01-Q17_0.png"
+  ],
+  "answer": "17; it is 52 - 5 \u00d7 7 and -10 + 3 \u00d7 9.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C01-Q23",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "23",
+  "srcpage": "12",
+  "related": "8",
+  "page": 48,
+  "crops": [
+   "C01-Q23_0.png"
+  ],
+  "answer": "-0.2. The step is (0.4 - 1.6) \u00f7 4 = -0.3; from term 6 subtract 0.3 twice.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "C01-Q27",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "1",
+  "oq": "27",
+  "srcpage": "14",
+  "related": "",
+  "page": 48,
+  "crops": [
+   "C01-Q27_0.png"
+  ],
+  "answer": "(a) For example 2, 11, 17. (b) 2: three odd primes have an odd sum, so an even total of 30 requires the only even prime.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "C02-Q05",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "2",
+  "oq": "5",
+  "srcpage": "19",
+  "related": "",
+  "page": 49,
+  "crops": [
+   "C02-Q05_0.png"
+  ],
+  "answer": "Term at position 10: 70; at position 15: 105; position of term 350: 50.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "C02-Q06",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 April",
+  "paper": "2",
+  "oq": "6",
+  "srcpage": "19",
+  "related": "",
+  "page": 49,
+  "crops": [
+   "C02-Q06_0.png"
+  ],
+  "answer": "34 = 3\u00b2 + 5\u00b2.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "C03-Q07",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "1",
+  "oq": "7",
+  "srcpage": "35",
+  "related": "",
+  "page": 49,
+  "crops": [
+   "C03-Q07_0.png"
+  ],
+  "answer": "For example 3, 7, 13.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "C03-Q18",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "1",
+  "oq": "18",
+  "srcpage": "42",
+  "related": "8",
+  "page": 50,
+  "crops": [
+   "C03-Q18_0.png"
+  ],
+  "answer": "1.00 and 0.98.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C04-Q08",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "8",
+  "srcpage": "52",
+  "related": "",
+  "page": 50,
+  "crops": [
+   "C04-Q08_0.png"
+  ],
+  "answer": "(a) For example 36. (b) For example 6 (also 1, 2 or 3).",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "C04-Q13",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "13",
+  "srcpage": "54",
+  "related": "4",
+  "page": 50,
+  "crops": [
+   "C04-Q13_0.png"
+  ],
+  "answer": "-7 and -49.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "C04-Q17",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "17",
+  "srcpage": "56",
+  "related": "",
+  "page": 51,
+  "crops": [
+   "C04-Q17_0.png"
+  ],
+  "answer": "72 = 6\u00b2 + 6\u00b2.",
+  "skill": "sq-picture"
+ },
+ {
+  "id": "C04-Q18",
+  "unit": 2,
+  "kind": "C",
+  "year": "2023 October",
+  "paper": "2",
+  "oq": "18",
+  "srcpage": "56",
+  "related": "15",
+  "page": 51,
+  "crops": [
+   "C04-Q18_0.png"
+  ],
+  "answer": "Square only: 16,25. Cube only: 8. Both: 1,64. Neither: 5.",
+  "skill": "sc-sort"
+ },
+ {
+  "id": "C05-Q25",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "1",
+  "oq": "25",
+  "srcpage": "78",
+  "related": "",
+  "page": 52,
+  "crops": [
+   "C05-Q25_0.png"
+  ],
+  "answer": "9 \u00d7 20 = 180.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "C06-Q10",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "10",
+  "srcpage": "90",
+  "related": "",
+  "page": 52,
+  "crops": [
+   "C06-Q10_0.png"
+  ],
+  "answer": "For example prime 17; not prime 27.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "C06-Q17",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "17",
+  "srcpage": "93",
+  "related": "14",
+  "page": 53,
+  "crops": [
+   "C06-Q17_0.png"
+  ],
+  "answer": "32; half of 8\u00b2.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "C06-Q18",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "18",
+  "srcpage": "94",
+  "related": "",
+  "page": 53,
+  "crops": [
+   "C06-Q18_0.png"
+  ],
+  "answer": "For example 60 and 120.",
+  "skill": "mf-multiple"
+ },
+ {
+  "id": "C06-Q29",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 April",
+  "paper": "2",
+  "oq": "29",
+  "srcpage": "101",
+  "related": "",
+  "page": 54,
+  "crops": [
+   "C06-Q29_0.png"
+  ],
+  "answer": "18. First terms: 32 - 7 \u00d7 3 = 11 and 64 - 7 \u00d7 5 = 29.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C07-Q28",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "1",
+  "oq": "28",
+  "srcpage": "119",
+  "related": "",
+  "page": 54,
+  "crops": [
+   "C07-Q28_0.png"
+  ],
+  "answer": "7.5. Lily starts at 3 and adds 4; Samira starts at 3 and adds 1.5.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "C07-Q33",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "1",
+  "oq": "33",
+  "srcpage": "122",
+  "related": "4",
+  "page": 55,
+  "crops": [
+   "C07-Q33_0.png"
+  ],
+  "answer": "Yes. The even-position terms are 12,10,8,6,4,2,0,-2; -2 is term 16.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "C08-Q14",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "14",
+  "srcpage": "132",
+  "related": "8",
+  "page": 55,
+  "crops": [
+   "C08-Q14_0.png"
+  ],
+  "answer": "4.75 in the first box; 1.75 in the final box. Subtract 0.75 each time.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C08-Q19",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "19",
+  "srcpage": "137",
+  "related": "",
+  "page": 56,
+  "crops": [
+   "C08-Q19_0.png"
+  ],
+  "answer": "(a) 12. (b) 144.",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "C08-Q29",
+  "unit": 2,
+  "kind": "C",
+  "year": "2024 October",
+  "paper": "2",
+  "oq": "29",
+  "srcpage": "145",
+  "related": "",
+  "page": 56,
+  "crops": [
+   "C08-Q29_0.png"
+  ],
+  "answer": "2401 = (7\u00b2)\u00b2 = 7\u2074.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "C09-Q05",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "1",
+  "oq": "5",
+  "srcpage": "151",
+  "related": "4",
+  "page": 57,
+  "crops": [
+   "C09-Q05_0.png"
+  ],
+  "answer": "-15.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C09-Q27",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "1",
+  "oq": "27",
+  "srcpage": "163",
+  "related": "8",
+  "page": 57,
+  "crops": [
+   "C09-Q27_0.png"
+  ],
+  "answer": "0.55 (or 11/20); the common difference is 0.25.",
+  "skill": "sq-missing"
+ },
+ {
+  "id": "C09-Q30",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "1",
+  "oq": "30",
+  "srcpage": "164",
+  "related": "10",
+  "page": 58,
+  "crops": [
+   "C09-Q30_0.png"
+  ],
+  "answer": "Position 27; its term is 108, the first multiple of both 4 and 6 greater than 100.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "C10-Q02",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "2",
+  "srcpage": "166",
+  "related": "",
+  "page": 58,
+  "crops": [
+   "C10-Q02_0.png"
+  ],
+  "answer": "64.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "C10-Q13",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "13",
+  "srcpage": "171",
+  "related": "",
+  "page": 59,
+  "crops": [
+   "C10-Q13_0.png"
+  ],
+  "answer": "3.",
+  "skill": "sc-cube"
+ },
+ {
+  "id": "C10-Q26",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 April",
+  "paper": "2",
+  "oq": "26",
+  "srcpage": "178",
+  "related": "",
+  "page": 59,
+  "crops": [
+   "C10-Q26_0.png"
+  ],
+  "answer": "For 4 and 10: common factor 2, common multiple 20. For the second row choose, for example, 10 and 15 (common factor 5, common multiple 30).",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "C11-Q23",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "1",
+  "oq": "23",
+  "srcpage": "197",
+  "related": "",
+  "page": 59,
+  "crops": [
+   "C11-Q23_0.png"
+  ],
+  "answer": "604.",
+  "skill": "sq-rules"
+ },
+ {
+  "id": "C11-Q26",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "1",
+  "oq": "26",
+  "srcpage": "199",
+  "related": "",
+  "page": 60,
+  "crops": [
+   "C11-Q26_0.png"
+  ],
+  "answer": "(a) 2 factors. (b) 4 factors: 1, p, q and pq for distinct primes p and q.",
+  "skill": "mf-prime"
+ },
+ {
+  "id": "C12-Q03",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "3",
+  "srcpage": "206",
+  "related": "",
+  "page": 60,
+  "crops": [
+   "C12-Q03_0.png"
+  ],
+  "answer": "49 dots.",
+  "skill": "sc-square"
+ },
+ {
+  "id": "C12-Q04",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "4",
+  "srcpage": "207",
+  "related": "",
+  "page": 61,
+  "crops": [
+   "C12-Q04_0.png"
+  ],
+  "answer": "(a) For example 30. (b) For example 4 (also 1 or 2).",
+  "skill": "mf-factor"
+ },
+ {
+  "id": "C12-Q10",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "10",
+  "srcpage": "210",
+  "related": "4",
+  "page": 61,
+  "crops": [
+   "C12-Q10_0.png"
+  ],
+  "answer": "-1 and 5.",
+  "skill": "sq-jumps"
+ },
+ {
+  "id": "C12-Q17",
+  "unit": 2,
+  "kind": "C",
+  "year": "2025 October",
+  "paper": "2",
+  "oq": "17",
+  "srcpage": "213",
+  "related": "",
+  "page": 61,
+  "crops": [
+   "C12-Q17_0.png"
+  ],
+  "answer": "1.",
+  "skill": "sc-sort"
+ }
+]
