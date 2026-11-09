@@ -6,6 +6,6 @@ const port = Number(process.env.PORT) || 8080;
 const dbFile = process.env.DB_FILE || path.join('data-store', 'app.db');
 fs.mkdirSync(path.dirname(dbFile), { recursive: true });
 
-const { app } = await createApp({ dbUrl: `file:${dbFile}` });
+const { app } = createApp({ dbFile });
 const host = process.env.HOST || '0.0.0.0';
 app.listen(port, host, () => console.log(`Paper Maths running at http://${host}:${port}`));

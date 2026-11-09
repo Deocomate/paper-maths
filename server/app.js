@@ -1,5 +1,5 @@
 import express from 'express';
-import { createClient } from '@libsql/client';
+import { DatabaseSync } from 'node:sqlite';
 import { z } from 'zod';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -10,13 +10,13 @@ export const WEB_DIR = path.join(ROOT, 'dist', 'web');
 const stateBody = z.object({ db: z.record(z.string(), z.unknown()), updatedAt: z.number().int().nonnegative() });
 const paperBody = z.object({ id: z.string().min(1).max(64) }).passthrough();
 
-/** Builds the Express app. `dbUrl` is a libsql URL, e.g. "file:data/app.db" or ":memory:". */
-export async function createApp({ dbUrl, webDir = WEB_DIR }) {
-  const db = createClient({ url: dbUrl });
-  await db.batch([
-    'CREATE TABLE IF NOT EXISTS app_state (id INTEGER PRIMARY KEY CHECK (id = 1), json TEXT NOT NULL, updated_at INTEGER NOT NULL)',
-    'CREATE TABLE IF NOT EXISTS papers (id TEXT PRIMARY KEY, json TEXT NOT NULL, updated_at INTEGER NOT NULL)',
-  ]);
+/** Builds the Express app. `dbFile` is a SQLite path, or ":memory:" for tests. */
+export function createApp({ dbFile, webDir = WEB_DIR }) {
+  const db = new DatabaseSync(dbFile);
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS app_state (id INTEGER PRIMARY KEY CHECK (id = 1), json TEXT NOT NULL, updated_at INTEGER NOT NULL);
+    CREATE TABLE IF NOT EXISTS papers (id TEXT PRIMARY KEY, json TEXT NOT NULL, updated_at INTEGER NOT NULL);
+  `);
 
   const app = express();
   app.disable('x-powered-by');
@@ -25,45 +25,39 @@ export async function createApp({ dbUrl, webDir = WEB_DIR }) {
 
   app.get('/api/health', (_req, res) => res.json({ ok: true }));
 
-  app.get('/api/state', async (_req, res) => {
-    const { rows } = await db.execute('SELECT json, updated_at FROM app_state WHERE id = 1');
-    if (!rows.length) return res.json({ db: null, updatedAt: 0 });
-    res.json({ db: JSON.parse(rows[0].json), updatedAt: Number(rows[0].updated_at) });
+  app.get('/api/state', (_req, res) => {
+    const row = db.prepare('SELECT json, updated_at FROM app_state WHERE id = 1').get();
+    if (!row) return res.json({ db: null, updatedAt: 0 });
+    res.json({ db: JSON.parse(row.json), updatedAt: Number(row.updated_at) });
   });
 
   // Last write wins: an older write never replaces a newer one.
-  app.put('/api/state', async (req, res) => {
+  app.put('/api/state', (req, res) => {
     const body = stateBody.safeParse(req.body);
     if (!body.success) return res.status(400).json({ error: 'invalid state' });
     const { db: state, updatedAt } = body.data;
-    await db.execute({
-      sql: `INSERT INTO app_state (id, json, updated_at) VALUES (1, ?, ?)
-            ON CONFLICT(id) DO UPDATE SET json = excluded.json, updated_at = excluded.updated_at
-            WHERE excluded.updated_at >= app_state.updated_at`,
-      args: [JSON.stringify(state), updatedAt],
-    });
-    const { rows } = await db.execute('SELECT updated_at FROM app_state WHERE id = 1');
-    res.json({ updatedAt: Number(rows[0].updated_at) });
+    db.prepare(`INSERT INTO app_state (id, json, updated_at) VALUES (1, ?, ?)
+                ON CONFLICT(id) DO UPDATE SET json = excluded.json, updated_at = excluded.updated_at
+                WHERE excluded.updated_at >= app_state.updated_at`).run(JSON.stringify(state), updatedAt);
+    const row = db.prepare('SELECT updated_at FROM app_state WHERE id = 1').get();
+    res.json({ updatedAt: Number(row.updated_at) });
   });
 
-  app.get('/api/papers', async (_req, res) => {
-    const { rows } = await db.execute('SELECT json FROM papers ORDER BY updated_at');
-    res.json(rows.map((r) => JSON.parse(r.json)));
+  app.get('/api/papers', (_req, res) => {
+    res.json(db.prepare('SELECT json FROM papers ORDER BY updated_at').all().map((r) => JSON.parse(r.json)));
   });
 
-  app.put('/api/papers/:id', async (req, res) => {
+  app.put('/api/papers/:id', (req, res) => {
     const body = paperBody.safeParse(req.body);
     if (!body.success || body.data.id !== req.params.id) return res.status(400).json({ error: 'invalid paper' });
-    await db.execute({
-      sql: `INSERT INTO papers (id, json, updated_at) VALUES (?, ?, ?)
-            ON CONFLICT(id) DO UPDATE SET json = excluded.json, updated_at = excluded.updated_at`,
-      args: [req.params.id, JSON.stringify(body.data), Date.now()],
-    });
+    db.prepare(`INSERT INTO papers (id, json, updated_at) VALUES (?, ?, ?)
+                ON CONFLICT(id) DO UPDATE SET json = excluded.json, updated_at = excluded.updated_at`)
+      .run(req.params.id, JSON.stringify(body.data), Date.now());
     res.json({ ok: true });
   });
 
-  app.delete('/api/papers/:id', async (req, res) => {
-    await db.execute({ sql: 'DELETE FROM papers WHERE id = ?', args: [req.params.id] });
+  app.delete('/api/papers/:id', (req, res) => {
+    db.prepare('DELETE FROM papers WHERE id = ?').run(req.params.id);
     res.json({ ok: true });
   });
 

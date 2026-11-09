@@ -15,8 +15,10 @@
   "type": "module",
   "private": "true",
   "dependencies": {
-    "@libsql/client": "^0.18.0",
     "express": "^5.3.0",
     "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": ">=22.5"
   }
 }

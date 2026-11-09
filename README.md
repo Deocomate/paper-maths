@@ -56,7 +56,7 @@ Build outputs:
 ```bash
 npm install
 npm run build      # python build.py, writes the web build
-npm start          # http://localhost:8080  (PORT and DB_FILE can be set; default DB: data-store/app.db)
+npm start          # http://localhost:8080  (PORT, HOST and DB_FILE can be set; default DB: data-store/app.db). Needs Node 22.5+ (uses the built-in `node:sqlite`)
 npm test           # API tests
 ```
 
@@ -64,6 +64,8 @@ npm test           # API tests
 |---|---|
 | `GET/PUT /api/state` | The whole `localStorage` object. Last write wins by `updatedAt`. |
 | `GET /api/papers`, `PUT/DELETE /api/papers/:id` | Imported papers (IndexedDB records). |
+
+Live: https://paper-maths.thceramics.admirable.site (CentOS 7, nginx, systemd unit `paper-maths`, settings in `/etc/paper-maths/environment`, database `/opt/paper-maths/data-store/app.db`). To deploy: `python build.py`, `python deploy/pack.py out.tgz`, copy it to `/tmp/pm.tgz` on the server and run `deploy/server-setup.sh` there (first-time setup, also updates the files). After the first time, extract the archive into `/opt/paper-maths`, run `npm ci --omit=dev` and `systemctl restart paper-maths`.
 
 The browser side is `src/sync.js`. There is no login: run the server on a home or school network, or behind your own access control, not open on the internet. Deleting an imported paper on one device does not remove a copy that another device still holds locally.
 

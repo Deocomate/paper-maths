@@ -5,7 +5,7 @@ import { createApp } from './app.js';
 let server, base, close;
 
 before(async () => {
-  const made = await createApp({ dbUrl: ':memory:', webDir: '.' });
+  const made = createApp({ dbFile: ':memory:', webDir: '.' });
   close = made.close;
   await new Promise((r) => { server = made.app.listen(0, r); });
   base = `http://localhost:${server.address().port}`;
